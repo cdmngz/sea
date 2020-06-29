@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscando a Nemo</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      .container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+      }
+      section {
+        min-width: 100vw;
+        height: 100vh;
+        display: flex;
+      }
+      section:nth-of-type(1) {
+        background-image: url('https://static1.squarespace.com/static/5442a762e4b0f7692c706f16/5477d4e5e4b0464e56cf4a75/5c1aac24c2241b621f76fa48/1547146553576/Under-the-Sea-1500x1000.jpg');
+        background-size: 100% 100%;
+      }
+      section:nth-of-type(2) {
+        background-image: url('https://image.freepik.com/foto-gratis/gran-abanico-mar-vida-marina-parque-nacional-wakatobi-indonesia_45529-48.jpg');
+        background-size: 100% 100%;
+      }
+      section:nth-of-type(3) {
+        background-image: url('https://www.granadadigital.es/wp-content/uploads/2016/05/fondo-marino.jpg');
+        background-size: 100% 100%;
+      }
+      section:nth-of-type(4) {
+        background-image: url('https://i.pinimg.com/originals/31/21/35/312135500bf4abeb3a1a96eff302ac73.jpg');
+        background-size: 100% 100%;
+      }
+      .pez {
+        position: fixed;
+        top: 50vh;
+        height: 100px;
+      }
+      .primero {
+        height: 200vh;
+        position: absolute;
+        width: 100%;
+        background-color: antiquewhite;
+        z-index: 2;
+        background-image: url('https://geographical.co.uk/media/k2/items/cache/d0d5caef53a97465ee5797663b3cd459_XL.jpg');
+        background-size: 100% 100%;
+      }
+    </style>
+</head>
+<body>
+  <div class="primero" data-0="transform:translateY(0%)" data-400="transform:translateY(-200vh)">
+    <h3>viending</h3>
+  </div>
+  <div class="container" data-400="transform:translateX(0%)" data-4000="transform:translateX(-305vw)">
+  <img class="pez" src="https://media1.giphy.com/media/3FmvZD65kJaJdSTHs5/giphy.gif">
+  <section></section>
+  <section></section>
+  <section></section>
+  <section></section>
+  </div>
+  <script src="skrollr.js"></script>
+  <script>  
+    skrollr.init()
+  </script>
+</body>
+</html>
